@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color: rgb(214, 172, 109);
+    --secondary-color: #9e6161;
+    --accent2-color: #639a55; 
+
+    --heading-font:
+}
+
+header {
+    padding: 20px;
+    background-color: steelblue;
+}
+p {
+    padding: 25px;
+}
