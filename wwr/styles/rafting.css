@@ -1,49 +1,49 @@
 @import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root {
-    --pseudo-class: schema;
+    --main-color: #007bff;
+    --font-size: 16px;
 }
-img nav{
-    float: right;
-    margin: 0 0 10px 15px;
-    border: 1px solid #000;
-    padding: 3px;
-    background-color: #bbb;
-    width: 100px;
-    height: auto;
-}
-    
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-nav{
-    background-color: steelblue;
-    padding: 10px;
-    float:left;
-}
-.hero img {
-    display: block;
-    width:100%;
-    height: auto;
-}
-article  {
-    text-align: center;
-    width: 20em;
-    position:absolute;
+body{
+    width: 1000px;
+    margin:0 auto;
 }
 h1 {
-    text-align: center;
-    padding: 0;
-    margin: 1;
+    color: var(--primary-color);
+    box-sizing: border-box;
     position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 120px;
+    
 }
-img article{
+article{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: rgba(221, 221, 221, .70);
+    color:#000;
+    position: absolute;
+    top: 300px
+    
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero article img{
     float:right;
-    text-align: center;
+    width: 150px;
+    padding: 1rem;
+
 }
-footer{
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
+h2{
+
+    color: #2c1212
+}
+p section {
+    color: #2c1212;
+}
+.hero{
+    position:relative;
 }
