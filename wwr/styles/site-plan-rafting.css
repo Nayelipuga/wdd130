@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root {
-    --primary-color: rgb(214, 172, 109);
+    --primary-color: rgba(214, 172, 109, .70);
     --secondary-color: #9e6161;
     --accent2-color: #639a55; 
 
@@ -14,4 +14,8 @@ header {
 p {
     color:violet
     padding: 25px;
+}
+body{
+    width: 1000px;
+    margin:0 auto;
 }
