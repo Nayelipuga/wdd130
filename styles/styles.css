@@ -91,16 +91,6 @@ aside h2{
 }
 
 
-/*   margin: 1em;
-    border: 1px solid rgba (0, 0, 0, 0.2);
-    padding: 1em ;
-    background-color: #eee;
-    color: #333;
-    footer .grid{
-    margin-top: 1em;
-    border-top: 1px solid #000;
+footer{
     text-align: center;
-    max-width: 840px;
-    margin:0 auto
 }
-grid-template-columns: 1fr 2fr
