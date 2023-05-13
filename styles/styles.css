@@ -28,9 +28,10 @@ body{
     display: box;
 }
 header, .grid, footer{
-    max-width: 840px;
+    max-width: 900px;
     margin:0 auto;
     display: box;
+    align-items: center;
 }
 main img {
     width: 150px;
@@ -44,6 +45,7 @@ main img {
 }
 .grid {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -51,19 +53,22 @@ p {
     margin-top: 0;
 }
 main {
-    grid-column: 2;
+    
     margin: 1rem;
     display:box;
+    grid-column: 2/3;
+    grid-row: 1/2;
 
 }
 aside{
 
     text-align: center;
-    width: 20rem;
     position:relative;
-    grid-column: 1;
     margin: 1rem;
-    grid-row: 1;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+
 
 }
 aside img {
