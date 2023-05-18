@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+
+* {
+    background-color: darkseagreen;
+}
+form {
+    display: block;
+}
+body {
+    color:brown;
+}
+h1{
+    color:darkred;
+}
