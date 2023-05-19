@@ -2,13 +2,49 @@
 
 * {
     background-color: darkseagreen;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 form {
-    display: block;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
 }
 body {
-    color:brown;
+    color: rgb(30, 30, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background: #fff;
+}
+fieldset{
+    display:grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+
 }
 h1{
     color:darkred;
+}
+label, select, textarea, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(23, 23, 46);
+}
+button{
+    margin: 1rem;
+    background-color: navy;
+    color:#fff;
+    border: none;
+    border-radius: .6rem;
+    padding: .80rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkblue;
 }
