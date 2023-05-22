@@ -1,21 +1,50 @@
 @import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 :root {
-    --primary-color: rgba(214, 172, 109, .70);
+    --primary-color: #2c1212;;
     --secondary-color: #9e6161;
     --accent2-color: #639a55; 
-
-    --heading-font:
+    --heading-font:var(--accent2-color);
+    --paragraph-font:Arial;
+    --nav-background-color: rgb(187, 119, 70);
+    --nav-link-color:#fff;
+    --nav-hover-background-color:#9f5757;
 }
 
 header {
     padding: 20px;
-    background-color: steelblue;
+    background-color: rgb(175, 130, 88);
+    color: #fff;
 }
 p {
-    color:violet
     padding: 25px;
 }
 body{
     width: 1000px;
     margin:0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 960px;
+    padding: 20px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
