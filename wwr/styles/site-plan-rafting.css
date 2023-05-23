@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapies.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Roboto&display=swap');
+
 :root {
     --primary-color: #2c1212;;
     --secondary-color: #9e6161;
-    --accent2-color: #639a55; 
-    --heading-font:var(--accent2-color);
-    --paragraph-font:Arial;
+    --accent1-color: #aa7f7f;
+    --accent2-color: #C1DBB3; 
+    --heading-font: Coda,serif;
+    --paragraph-font: Roboto, serif;
     --nav-background-color: rgb(187, 119, 70);
     --nav-link-color:#fff;
     --nav-hover-background-color:#9f5757;
@@ -21,12 +23,13 @@ p {
 body{
     width: 1000px;
     margin:0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 
 }
 h1, h2, h3, h4, h5, h6 {
+
     font-family: var(--heading-font);
     color:var(--primary-color);
 }

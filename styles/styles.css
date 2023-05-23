@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: steelblue;
+    background-color: rgb(175, 130, 88);
     padding: 1rem;
     display:flex;
     justify-content: space-evenly;
@@ -19,8 +19,8 @@ nav a {
     color: #fff; /% shorthand for while %/
 }
 h1 {
-    color: steelblue;
-    border-bottom: 1px solid steelblue;
+    color:  #2c1212;
+    border-bottom: 1px solid #9e6161;
 }
 body{
     width: 900px;

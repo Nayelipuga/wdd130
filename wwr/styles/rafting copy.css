@@ -124,9 +124,13 @@ p section {
     position:relative;
 }
 footer {
-    display: flex;
-    grid-template-columns: 3fr 1fr ;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
 }
 footer img {
-    max-width: 5%;
+    max-width: 100%;
+}
+.sociallinks{
+    background-color: #fff;
 }
