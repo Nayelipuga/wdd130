@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Nayeli Puga  |  Contact Us  |  WDD 130</title>
-        <meta name="description" content="Contact Us is a page where you can find the contact of the author">
+        <title>Nayeli Puga  |  Trips  |  WDD 130</title>
+        <meta name="description" content="Trips is a page where you can find recomendations of great trips">
         <meta name="author" contect="Nayeli Puga">
-        <link rel="stylesheet" href="styles/rafting copy.css">
+        <link rel="stylesheet" href="styles/trips.css">
     </head>
     <body>
     <header>
@@ -19,53 +19,48 @@
         </nav>
     </header>    
             <main>
-                <h1>Contact Us</h1>
-                <h2> Send us a Message</h2>
+                <h1>Trips</h1>
+                <h2>Trips</h2>
+                <p><a href="contact.html" class="cta-button">Contact Us</a></p>
                 <p>Zion National Park</p>
-                <p>Phone Number 3857894636</p>
-                <p>Email: <a href="nayeli:">nayeli.pugagarzon@gmail.com</a></p>
-                <div class="map"></div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.0057664107862!2d-112.98955962457394!3d37.200092472135786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cac2bd35ac0a47%3A0x8e601e4c459d754d!2sZion%20Canyon%20Visitor%20Center!5e0!3m2!1sen!2sus!4v1684542530601!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="hero">
+                        <article>
+                            <img src="images/zionnationalpark.jpg" alt="about">
+                            <h2>Zion National Park</h2>
+                            <p>Zion National Park includes mountains, canyons, buttes, mesas, monoliths, rivers, slot canyons, and natural arches. It's beautiful place perfect to past in family or friends even by your own you can feel a natural experience. Perfect for exercising with an incredible view. </p>
+                            <img src="images/bricecanyon.jpg" alt="about" >
+                            <h2>Bryce Canyon</h2>
+                            <p>The major feature of the park is Bryce Canyon, which despite its name, is not a canyon, but a collection of giant natural amphitheaters along the eastern side of the Paunsaugunt Plateau. </p>
+                            <img src="images/narrows1.jpg" alt="about">
+                            <h2>The Narrows</h2>
+                            <p>The Narrows is the narrowest section of Zion Canyon. This gorge, with walls a thousand feet tall and the river sometimes just twenty to thirty feet wide, is one of the most popular areas in Zion National Park. </p>
+                    </article>
                 </div>
-                <section class="employee">
-                       <h2>Happy Employee</h2>
-                    <figure>
-                        <img src="images/happyemployee1.jpg" alt="about" >
-                        <figcaption>Employee 1</figcaption>
-                    </figure>   
-                    <figure>
-                        <img src="images/happyemployee2.jpg" alt="about" >
-                        <figcaptio>Employee 2</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/happyemployee3.jpg" alt="about">
-                        <figcaption>Employee 3</figcaption>
-                    </figure>
-                </section>
-                <form>
-                    <fieldset>
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                    <label for="email">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
-                    <div class="form-group">
-                        <label for="purpose">Purpose of Message:</label><br>
-                        <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
-                        <label for="general">General Inquiry</label><br>
-                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                        <label for="reservation">Reservation Question</label><br>
-                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                        <label for="suggestion">Website Suggestion</label>
-                      </div>
-                      <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-                    <label class="checkbox-label" for="newsletter">Please subscribe me to the monthly newsletter</label>
-                </fieldset>
-                <button type="submit">Submit</button>
-                </form>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Trip Name</th>
+                        <th>Destination</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Trip 1</td>
+                        <td>Destination 1</td>
+                        <td>5 days</td>
+                        <td>$500</td>
+                      </tr>
+                      <tr>
+                        <td>Trip 2</td>
+                        <td>Destination 2</td>
+                        <td>7 days</td>
+                        <td>$700</td>
+                      </tr>
+                      <!-- Add more rows for other trips -->
+                    </tbody>
+                  </table>
             </main>
         <footer>
             <p>Zion National Park .2023 &copy; Nayeli Puga</p>
