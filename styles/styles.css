@@ -25,12 +25,12 @@ h1 {
 body{
     width: 900px;
     margin:0 auto;
-    display: box;
+    display: block;
 }
 header, .grid, footer{
     max-width: 900px;
     margin:0 auto;
-    display: box;
+    display: block;
     align-items: center;
 }
 main img {
@@ -55,7 +55,7 @@ p {
 main {
     
     margin: 1rem;
-    display:box;
+    display:block;
     grid-column: 2/3;
     grid-row: 1/2;
 
