@@ -45,14 +45,15 @@ li{
     margin-right: 20px;
 }
 
-h1 {
+.hero h1 {
     color: var(--primary-color);
     box-sizing: border-box;
     right: 0;
     left: 0;
     text-align: center;
     top: 120px;
-    color: #000;
+    color: #fff;
+    position: absolute;
     
 }
 .history img{
@@ -169,6 +170,14 @@ thead{
     height: auto;
 }
 .button{
+    padding: 10px 20px;
+    background-color: #507e52;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+button{
     padding: 10px 20px;
     background-color: #507e52;
     color: #FFFFFF;
